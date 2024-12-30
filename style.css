@@ -10,6 +10,10 @@
     #link-GitHub {
         content: url(/assets/GitHub_Invertocat_Dark.svg);
     }
+
+    #link-Discord {
+        content: url(/assets/discord-mark-black.svg);
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,6 +23,10 @@
 
     #link-GitHub {
         content: url(/assets/GitHub_Invertocat_Light.svg);
+    }
+
+    #link-Discord {
+        content: url(/assets/discord-mark-white.svg);
     }
 }
 
