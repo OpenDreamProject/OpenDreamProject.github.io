@@ -6,27 +6,11 @@
     body {
         background-color: #fafafa;
     }
-
-    #link-GitHub {
-        content: url(/assets/GitHub_Invertocat_Dark.svg);
-    }
-
-    #link-Discord {
-        content: url(/assets/discord-mark-black.svg);
-    }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1b1b1b;
-    }
-
-    #link-GitHub {
-        content: url(/assets/GitHub_Invertocat_Light.svg);
-    }
-
-    #link-Discord {
-        content: url(/assets/discord-mark-white.svg);
     }
 }
 
@@ -43,10 +27,6 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-}
-
-.link-image {
-    width: 64px;
 }
 
 a:link,a:visited {
