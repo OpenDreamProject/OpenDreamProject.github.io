@@ -5,11 +5,12 @@
 @media (prefers-color-scheme: light) {
     :root {
         --background-color: #fafafa;
-        --text-color: #black;
+        --text-color: black;
         --link-color: #00e;
         --contents-box-shadow: grey;
         --hero-button-box-shadow: black;
         --hero-button-background: #fffb;
+        --hero-button-text-color: black;
     }
 }
 
@@ -21,6 +22,7 @@
         --contents-box-shadow: black;
         --hero-button-box-shadow: white;
         --hero-button-background: #000b;
+        --hero-button-text-color: white;
     }
 }
 
@@ -98,7 +100,7 @@ a:hover {
 
 #hero-links p {
     float: right;
-    color: var(--text-color);
+    color: var(--hero-button-text-color);
     margin: 0px 0px 0px 4px;
     font-size: 24px;
 }
