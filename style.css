@@ -5,6 +5,8 @@
 @media (prefers-color-scheme: light) {
     :root {
         --background-color: #fafafa;
+        --text-color: #black;
+        --link-color: #00e;
         --contents-box-shadow: grey;
         --hero-button-box-shadow: black;
         --hero-button-background: #fffb;
@@ -14,6 +16,8 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color: #1b1b1b;
+        --text-color: #fbfbfe;
+        --link-color: #8c8cff;
         --contents-box-shadow: black;
         --hero-button-box-shadow: white;
         --hero-button-background: #000b;
@@ -47,7 +51,7 @@ a:link,a:visited {
 }
 
 a:visited {
-    color: LinkText;
+    color: var(--link-color);
 }
 
 a:hover {
@@ -97,7 +101,7 @@ a:hover {
 
 #hero-links p {
     float: right;
-    color: CanvasText;
+    color: var(--text-color);
     margin: 0px 0px 0px 4px;
     font-size: 24px;
 }
