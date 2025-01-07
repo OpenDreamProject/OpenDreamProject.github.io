@@ -48,9 +48,6 @@ body:before {
 
 a:link,a:visited {
     text-decoration: none;
-}
-
-a:visited {
     color: var(--link-color);
 }
 
