@@ -1,39 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Information and links on the OpenDream project">
-        <title>OpenDream Info & Links</title>
+        <title>OpenDream Game Engine</title>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <picture>
-            <source media="(min-width: 1080px)" srcset="/assets/logo-big.svg" width="580px">
-            <source media="(min-width: 400px)" srcset="/assets/logo-big.svg" width="54%">
-            <source media="(max-width: 400px)" srcset="/assets/logo-small.svg" height="100px">
-            <img src="/assets/logo-big.svg" id="logo" alt="OpenDream logo">
-        </picture>
-        <br>
-        <p style="text-align: center">OpenDream is an open source recreation of the <a href="https://www.byond.com/">BYOND</a> game engine. Current major goals include running <a href="https://spacestation13.com/">Space Station 13</a> and improving the DM development experience.</p>
-        <div id="links">
-            <a href="https://github.com/OpenDreamProject/OpenDream/">
-                <picture>
-                    <source media="(prefers-color-scheme: light)" srcset="/assets/GitHub_Invertocat_Dark.svg" width="64px">
-                    <source media="(prefers-color-scheme: dark)" srcset="/assets/GitHub_Invertocat_Light.svg" width="64px">
-                    <img alt="OpenDream GitHub">
-                </picture>
-            </a>
-            <a href="https://discord.opendre.am">
-                <picture>
-                    <source media="(prefers-color-scheme: light)" srcset="/assets/discord-mark-black.svg" width="64px">
-                    <source media="(prefers-color-scheme: dark)" srcset="/assets/discord-mark-white.svg" width="64px">
-                    <img alt="OpenDream Discord Server">
-                </picture>
-            </a>
-            <a href="https://ref.opendre.am/">
-                <img id="link-ODRef" src="/assets/odref.svg" width="64px" alt="OpenDream DM Reference">
-            </a>
+        <div id="hero">
+            <picture>
+                <source media="(min-width: 1080px)" srcset="/assets/logo-big.svg" width="580px">
+                <source media="(min-width: 400px)" srcset="/assets/logo-big.svg" width="54%">
+                <source media="(max-width: 400px)" srcset="/assets/logo-small.svg" height="100px">
+                <img src="/assets/logo-big.svg" id="logo" alt="OpenDream logo">
+            </picture>
+            <br>
+            <div id="hero-links">
+                <div>
+                    <a href="https://github.com/OpenDreamProject/OpenDream/">
+                        <picture>
+                            <source media="(prefers-color-scheme: light)" srcset="/assets/GitHub_Invertocat_Dark.svg">
+                            <source media="(prefers-color-scheme: dark)" srcset="/assets/GitHub_Invertocat_Light.svg">
+                            <img alt="OpenDream GitHub">
+                        </picture>
+                        <p>GitHub</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://discord.opendre.am">
+                        <picture>
+                            <source media="(prefers-color-scheme: light)" srcset="/assets/discord-mark-black.svg">
+                            <source media="(prefers-color-scheme: dark)" srcset="/assets/discord-mark-white.svg">
+                            <img alt="OpenDream Discord Server">
+                        </picture>
+                        <p>Discord</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://ref.opendre.am/">
+                        <img id="link-ODRef" src="/assets/odref.svg" alt="OpenDream DM Reference">
+                        <p>DM Reference</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="contents">
+            <h1>OpenDream Game Engine</h1>
+            <p>OpenDream is an open source recreation of the <a href="https://www.byond.com/">BYOND</a> game engine. Current major goals include running <a href="https://spacestation13.com/">Space Station 13</a> and improving the DM development experience.</p>
+            <div id="screenshots">
+                <img src="https://github.com/OpenDreamProject/OpenDream/raw/master/.github/assets/screenshot.png?raw=true" alt="OpenDream running tg station"/>
+                <p>OpenDream running <a href="https://github.com/tgstation/tgstation">/tg/station</a></p>
+                <img src="https://github.com/OpenDreamProject/OpenDream/raw/master/.github/assets/screenshot2.png?raw=true" alt="OpenDream running Paradise"/>
+                <p>OpenDream running <a href="https://github.com/ike709/Paradise/tree/rustg_64">Paradise</a></p>
+                <img src="https://github.com/OpenDreamProject/OpenDream/raw/master/.github/assets/screenshot3.png?raw=true" alt="OpenDream running Goonstation"/>
+                <p>OpenDream running <a href="https://github.com/goonstation/goonstation">Goonstation</a></p>
+            </div>
         </div>
     </body>
 </html>
