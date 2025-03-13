@@ -94,7 +94,7 @@ a:hover {
     transition-property: box-shadow;
 }
 
-#hero-links div:hover {
+#hero-links > div:hover {
     box-shadow: 0px 0px 16px var(--hero-button-box-shadow);
 }
 
@@ -112,11 +112,17 @@ a:hover {
 #contents {
     background-color: var(--background-color);
     box-shadow: 0px -5px 5px var(--contents-box-shadow);
-}
-
-#contents {
     text-align: center;
     min-height: 100vh;
+}
+
+#contents > p {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#contents > ul {
+    list-style-type: none;
 }
 
 #screenshots {
@@ -129,9 +135,10 @@ a:hover {
 #screenshots img {
     width: 100%;
     max-width: 1080px;
-    margin: 20px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
 }
 
 #screenshots p {
     margin-top: 0px;
+    margin-bottom: 20px;
 }
