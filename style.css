@@ -116,13 +116,14 @@ a:hover {
     min-height: 100vh;
 }
 
-#contents > p {
+#contents > * {
     margin-left: 5vw;
     margin-right: 5vw;
 }
 
 #contents > ul {
     list-style-type: none;
+    padding: 0px;
 }
 
 #screenshots {
